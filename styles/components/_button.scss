@@ -1,4 +1,30 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
-.btn {}
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  color: $white;
+
+  border-radius: 10rem;
+
+  &_primary {
+    background-color: $red;
+    height: 5.2rem;
+    padding: 1.5rem;
+
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      background-color: $vermillion;
+      transform: translateY(-.3rem);
+    }
+  }
+
+  &_welcome {
+    padding: 1.5rem 6rem;
+  }
+}

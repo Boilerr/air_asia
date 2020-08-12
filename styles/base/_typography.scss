@@ -13,3 +13,16 @@
 
   &__h4 {}
 }
+
+.greeting {
+  color: $white;
+  
+  &__item {
+    font-size: 1.8rem;
+    line-height: 1.2;
+
+    &_welcome {
+      margin-bottom: 6rem;
+    }
+  }
+}

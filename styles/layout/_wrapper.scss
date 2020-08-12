@@ -4,7 +4,7 @@
   display: grid;
 
   &__welcome {
-    min-width: 100vw;
+    min-width: auto;
     place-items: center center;
   }
 }

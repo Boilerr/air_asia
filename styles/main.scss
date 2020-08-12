@@ -2,7 +2,7 @@
 //  Base stuff
 @import
   'abstracts/variables.scss';
-  
+
 @import
   'base/base',
   'base/fonts',
@@ -16,7 +16,8 @@
 
 // 5. Components
 @import
-  'components/button';
+  'components/button',
+  'components/logo';
 
 // 6. Page-specific styles
 @import
