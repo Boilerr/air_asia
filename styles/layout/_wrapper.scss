@@ -1,0 +1,10 @@
+.wrapper {
+  overflow: hidden;
+  min-height: 100vh;
+  display: grid;
+
+  &__welcome {
+    min-width: 100vw;
+    place-items: center center;
+  }
+}
