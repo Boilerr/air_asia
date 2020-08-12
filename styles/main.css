@@ -107,16 +107,11 @@ sup {
 /**
  * Basic typography style for copy text
  */
-.greeting {
+.title_welcome {
   color: white;
-}
-
-.greeting__item {
   font-size: 1.8rem;
+  font-weight: 400;
   line-height: 1.2;
-}
-
-.greeting__item_welcome {
   margin-bottom: 6rem;
 }
 

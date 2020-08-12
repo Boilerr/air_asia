@@ -13,8 +13,8 @@
 </head>
 <body>
 <div class="wrapper welcome wrapper__welcome">
-  <div class="welcome__container">
-    <picture class="picture">
+  <div class="welcome__container" role="group" title="group of presentation: logo, slogan, link.">
+    <picture class="picture" role="img" title="logo">
       <source srcset="
                 ./images/Air_Asia-logo.webp 1x,
                 ./images/Air_Asia-logo.webp 2x"
@@ -22,12 +22,12 @@
       <img srcset="
                 ./images/Air_Asia-logo.png 1x,
                 ./images/Air_Asia-logo.png 2x"
-           src=""
            alt="Logo of air company Air Asia"
            class="logo logo__welcome">
     </picture>
-    <span class="greeting greeting__item greeting__item_welcome">Открой для себя Азию</span>
-    <a href="#" title="" class="btn btn_primary btn_welcome">войти</a>
+    <!-- h1 tag in this container for accessibility purposes only -->
+    <h1 class="title title_welcome">Открой для себя Азию</h1>
+    <a href="#" title="enter to main page" class="btn btn_primary btn_welcome">войти</a>
   </div>
 </div>
 </body>
