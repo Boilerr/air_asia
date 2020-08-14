@@ -48,6 +48,9 @@ sub {
 sup {
   top: -.5rem;
 }
+ul {
+  list-style: none;
+}
 
 .invisible {
   visibility: hidden;

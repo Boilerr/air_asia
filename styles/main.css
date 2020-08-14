@@ -50,6 +50,10 @@ sup {
   top: -.5rem;
 }
 
+ul {
+  list-style: none;
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -120,11 +124,24 @@ sup {
   min-height: 100vh;
   display: -ms-grid;
   display: grid;
+  place-items: start center;
+  background-color: #00161f;
 }
 
 .wrapper__welcome {
   min-width: auto;
   place-items: center center;
+}
+
+.wrapper__main {
+  background: url(../images/bg/hero.jpg) top center no-repeat, url(../images/bg/bottom-pic.jpg) bottom center no-repeat;
+  background-color: #00161f;
+}
+
+.container {
+  width: 114.2rem;
+  min-height: 100vh;
+  border: 1px solid red;
 }
 
 .btn {
