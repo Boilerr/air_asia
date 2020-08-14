@@ -14,34 +14,40 @@
 <body>
 <div class="wrapper wrapper__main">
   <div class="container">
-    <header class="header">
-        <nav class="nav">
-          <a href="#" class="logo">
-            <picture class="picture" role="img" title="logo">
-              <source srcset="
-                        ./images/Air_Asia-logo.webp 1x,
-                        ./images/Air_Asia-logo.webp 2x"
-                      type="image/webp">
-              <img srcset="
-                        ./images/Air_Asia-logo.png 1x,
-                        ./images/Air_Asia-logo.png 2x"
-                   alt="Logo of air company Air Asia"
-                   class="logo">
-            </picture>
-          </a>
-          <ul>
-            <li><a href="#" title="">Главная</a></li>
-            <li><a href="./services.html" title="">Услуги</a></li>
-            <li><a href="./review.html" title="">Отзывы</a></li>
-          </ul>
-          <div class="contacts">
-            <a href="tel:+88007003030" title="company number"></a>
+    <header class="header header__main">
+        <nav class="nav nav__main">
+            <a href="#" class="logo nav__logo">
+              <picture class="picture" role="img" title="logo">
+                <source srcset="
+                          ./images/Air_Asia-logo.webp 1x,
+                          ./images/Air_Asia-logo.webp 2x"
+                        type="image/webp">
+                <img srcset="
+                          ./images/Air_Asia-logo.png 1x,
+                          ./images/Air_Asia-logo.png 2x"
+                     alt="Logo of air company Air Asia"
+                     class="logo nav__logo">
+              </picture>
+            </a>
+            <ul class="nav__menu">
+              <li class="nav__item">
+                <a href="#" class="nav__link" title="main page">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a href="./services.html" class="nav__link" title="services page">Услуги</a>
+              </li>
+              <li class="nav__item">
+                <a href="./review.html" class="nav__link" title="reviews page">Отзывы</a>
+              </li>
+            </ul>
+          <div class="contacts nav__">
+            <a href="tel:+88007003030" title="company number">8 800 700 30 30</a>
             <a href="#">
               <span>График работы</span>
-              <div class="modal">
+              <!-- <div class="modal">
                 <span>пн-вс: 09:00 - 20:00</span>
                 <span>Обед: 14:00 - 14:30</span>
-              </div>
+              </div> -->
             </a>
           </div>
         </nav>

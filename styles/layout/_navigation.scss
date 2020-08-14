@@ -1,0 +1,22 @@
+.nav {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__contacts {
+    justify-self: flex-end;
+  }
+
+  &__logo {
+    height: 4.2rem;
+  }
+
+  &__main {
+    height: 7rem;
+  }
+
+  &__menu {
+    display: flex;
+  }
+}
