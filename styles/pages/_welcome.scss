@@ -1,7 +1,7 @@
 // Styles for first welcome-page
 .welcome {
 
-  background: $white url(../images/bg/screen.jpg) top/cover no-repeat;
+  background: var(--white) url(../images/bg/screen.jpg) top/cover no-repeat;
   
   &__container {
     display: grid;

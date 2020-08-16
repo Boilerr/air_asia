@@ -1,6 +1,10 @@
 .header {
+  color: var(--white);
+  display: grid;
 
   &__main {
-    
+    height: 53rem;
+    grid-template: 7.2rem 1fr / 1fr;
+    border: 1px solid greenyellow; // dev
   }
 }

@@ -2,7 +2,7 @@
  * Basic typography style for copy text
  */
 .title {
-
+  color: var(--white);
   &__h1 {}
 
   &__h2 {}
@@ -11,10 +11,8 @@
 
   &__h4 {}
 
-  // accessibility purposes only
   &_welcome {
-    color: $white;
-    font-size: 1.8rem;
+    font-size: var(--m);
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 6rem;

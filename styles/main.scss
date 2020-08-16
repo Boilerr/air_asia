@@ -12,14 +12,18 @@
 @import
   'layout/header',
   'layout/footer',
-  'layout/navigation',
   'layout/wrapper';
 
 // 5. Components
 @import
-  'components/button',
-  'components/logo';
+'components/button',
+'components/contacts',
+'components/logo',
+'components/menu',
+'components/modal',
+'components/navigation',
+'components/pages-links';
 
-// 6. Page-specific styles
+// 6. Page-specific styles 
 @import
   'pages/welcome';
