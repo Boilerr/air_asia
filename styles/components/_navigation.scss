@@ -7,15 +7,15 @@
     display: grid;
     grid-template: 100% / repeat(3, minmax(min-content, max-content));
     column-gap: 5.5rem;
+    place-items: center;
     width: 100%;
-    
+    min-height: 100%;
   }
 
   &__link {
     color: var(--white);
     font-size: var(--xs);
-
-    transition: all .2s ease-in;
+    transition: all .1s ease-in;
 
     &:hover {
       color: var(--vermillion);

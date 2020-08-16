@@ -3,7 +3,9 @@
  */
 .title {
   color: var(--white);
-  &__h1 {}
+  &__h1 {
+    font-size: var(--xxl);
+  }
 
   &__h2 {}
 
@@ -11,10 +13,25 @@
 
   &__h4 {}
 
+  &_break {
+    display: block;
+    line-height: 1.2;
+  }
+  &_break-sub {
+    margin-bottom: 2.8rem;
+  }
+
   &_welcome {
     font-size: var(--m);
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 6rem;
+  }
+  &_welcome-main {
+    display: block;
+    font-size: var(--m);
+    font-weight: 400;
+    line-height: 1 ;
+    margin-bottom: 3rem;
   }
 }

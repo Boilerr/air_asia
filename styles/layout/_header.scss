@@ -3,8 +3,15 @@
   display: grid;
 
   &__main {
-    height: 53rem;
+    height: 50rem;
     grid-template: 7.2rem 1fr / 1fr;
-    border: 1px solid greenyellow; // dev
+    margin-bottom: 25.5rem;
+  }
+}
+
+.heading {
+
+  &__main {
+    place-self: end start;
   }
 }
