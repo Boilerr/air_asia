@@ -1,0 +1,31 @@
+.pagination {
+  color: var(--white);
+
+  &__section,
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--xxs);
+  }
+  &__text {
+   margin-right: 2.5rem;
+  }
+
+  &__link {
+    color: inherit;
+    font-weight: 700;
+    padding: .7rem 1.4rem;
+
+    transition: all .3s ease-in;
+
+    &:hover {
+      color: var(--red);
+      background-color: var(--white);
+      border-radius: 10rem;
+    }
+  }
+  &_main {
+    margin-bottom: 15rem;
+  }
+}

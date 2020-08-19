@@ -287,6 +287,45 @@ ul {
   font-size: var(--xxs);
 }
 
+.pagination {
+  color: var(--white);
+}
+
+.pagination__section, .pagination__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: var(--xxs);
+}
+
+.pagination__text {
+  margin-right: 2.5rem;
+}
+
+.pagination__link {
+  color: inherit;
+  font-weight: 700;
+  padding: .7rem 1.4rem;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.pagination__link:hover {
+  color: var(--red);
+  background-color: var(--white);
+  border-radius: 10rem;
+}
+
+.pagination_main {
+  margin-bottom: 15rem;
+}
+
 .tours__list {
   display: -webkit-box;
   display: -ms-flexbox;
