@@ -1,278 +1,212 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Fictional airline website for course of Loftschool"
-    />
-    <meta name="keywords" content="air, asia" />
-    <meta name="author" content="Andriy Semenchenko" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/main.css" />
-    <title lang="en">Air Asia</title>
-  </head>
 
-  <body>
-    <div class="wrapper wrapper__main">
-      <div class="container">
-        <header class="header header__main">
-          <menu class="menu menu__main">
-            <div class="logo">
-              <a href="#" class="logo__link">
-                <picture class="logo__picture" role="img">
-                  <source
-                    srcset="
-                      ./images/Air_Asia-logo.webp 1x,
-                      ./images/Air_Asia-logo.webp 2x
-                    "
-                    type="image/webp"
-                  />
-                  <img
-                    srcset="
-                      ./images/Air_Asia-logo.png 1x,
-                      ./images/Air_Asia-logo.png 2x
-                    "
-                    alt="Logo of air company Air Asia"
-                    class="logo__img"
-                  />
-                </picture>
-              </a>
-            </div>
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="#" class="nav__link" title="main page">Главная</a>
-                </li>
-                <li class="nav__item">
-                  <a
-                    href="./services.html"
-                    class="nav__link"
-                    title="services page"
-                    >Услуги</a
-                  >
-                </li>
-                <li class="nav__item">
-                  <a href="./review.html" class="nav__link" title="reviews page"
-                    >Отзывы</a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <div class="contacts">
-              <a
-                class="contacts__tel"
-                href="tel:+88007003030"
-                title="company number"
-                >8 800 700 30 30</a
-              >
-              <div class="contacts__text">
-                График работы
-                <!-- <div class="modal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Fictional airline website for course of Loftschool">
+  <meta name="keywords" content="air, asia">
+  <meta name="author" content="Andriy Semenchenko">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <title lang="en">Air Asia</title>
+</head>
+
+<body>
+  <div class="wrapper wrapper__main">
+    <div class="container">
+      <header class="header header__main">
+        <menu class="menu menu__main">
+          <div class="logo">
+            <a href="#" class="logo__link">
+              <picture class="logo__picture" role="img">
+                <source srcset="
+                ./images/Air_Asia-logo.webp 1x,
+                ./images/Air_Asia-logo.webp 2x" type="image/webp">
+                <img srcset="
+                ./images/Air_Asia-logo.png 1x,
+                ./images/Air_Asia-logo.png 2x" alt="Logo of air company Air Asia" class="logo__img">
+              </picture>
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link" title="main page">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a href="./services.html" class="nav__link" title="services page">Услуги</a>
+              </li>
+              <li class="nav__item">
+                <a href="./review.html" class="nav__link" title="reviews page">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <a class="contacts__tel" href="tel:+88007003030" title="company number">8 800 700 30 30</a>
+            <div class="contacts__text">
+              График работы
+              <!-- <div class="modal">
               <span class="modal__text modal__text_active">пн-вс: 09:00 - 20:00</span>
               <span class="modal__text">Обед: 14:00 - 14:30</span>
             </div> -->
-              </div>
             </div>
-          </menu>
-          <div class="heading heading__main">
-            <h1 class="title title__h1">
-              <span class="title_break">Авторские</span>
-              <span class="title_break title_break-sub">туры по Азии</span>
-            </h1>
-            <span class="title title_welcome-main">Открой для себя Азию</span>
-            <a href="#tours" class="btn btn_primary">Подробнее</a>
           </div>
-        </header>
-        <main class="main">
-          <section class="tours">
-            <a class="invisible" name="tours"></a>
-            <h2 class="title title_h2 title_hot">Горящие туры</h2>
-            <ul class="tours__list">
-              <li class="tours__item">
-                <h3 class="title title_h3 title_tours">Тайланд</h3>
-                <ul class="tours__services services">
-                  <li class="services__item">
-                    <img src="" alt="" class="services__icon" />
-                    <span class="services__text">7 - 12 ночей</span>
-                  </li>
-                  <li class="services__item">
-                    <img src="" alt="" class="services__icon" />
-                    <span class="services__text">Завтраки</span>
-                  </li>
-                </ul>
-                <p class="tours__description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                  qui omnis nostrum accusantium ratione dolore ex voluptatem
-                  maxime tenetur repellat.
-                </p>
-                <a href="#" class="btn btn_tours">Смотреть</a>
-              </li>
-              <li class="tours__item">
-                <h3 class="title title_h3 title_tours">Тайланд</h3>
-                <ul class="tours__services services">
-                  <li class="services__item">
-                    <img src="" alt="" class="services__icon" />
-                    <span class="services__text">7 - 12 ночей</span>
-                  </li>
-                  <li class="services__item">
-                    <img src="" alt="" class="services__icon" />
-                    <span class="services__text">Завтраки</span>
-                  </li>
-                </ul>
-                <p class="tours__description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                  qui omnis nostrum accusantium ratione dolore ex voluptatem
-                  maxime tenetur repellat.
-                </p>
-                <a href="#" class="btn btn_tours">Смотреть</a>
-              </li>
-              <li class="tours__item">
-                <h3 class="title title_h3 title_tours">Тайланд</h3>
-                <ul class="tours__services services">
-                  <li class="services__item">
-                    <img src="" alt="" class="services__icon" />
-                    <span class="services__text">7 - 12 ночей</span>
-                  </li>
-                  <li class="services__item">
-                    <img src="" alt="" class="services__icon" />
-                    <span class="services__text">Завтраки</span>
-                  </li>
-                </ul>
-                <p class="tours__description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                  qui omnis nostrum accusantium ratione dolore ex voluptatem
-                  maxime tenetur repellat.
-                </p>
-                <a href="#" class="btn btn_tours">Смотреть</a>
-              </li>
-            </ul>
-          </section>
-          <section class="news">
-            <h2>Новости и акции</h2>
-            <ul>
-              <li>
-                <time>Декабрь 2020</time>
-                <h3>Дешёвые путёвки на Новый Год!</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Possimus ipsa tempora assumenda iste, maxime aliquid?
-                </p>
-              </li>
-              <li>
-                <time>Декабрь 2020</time>
-                <h3>Акция для серфингистов</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Possimus ipsa tempora assumenda iste, maxime aliquid?
-                </p>
-              </li>
-            </ul>
-          </section>
-          <section class="pagination">
-            <span>Страница 1 из 7</span>
-            <ul>
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li><a href="#">6</a></li>
-              <li><a href="#">7</a></li>
-            </ul>
-          </section>
-          <section class="about">
-            <picture></picture>
-            <article>
-              <h2>О нас</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                obcaecati, voluptatum, suscipit et consectetur delectus pariatur
-                expedita tenetur sit at necessitatibus! Magnam vitae accusantium
-                qui, iste itaque consequatur quod, iusto labore officia fuga
-                earum placeat perspiciatis. Maxime hic eum, dicta odit quaerat
-                molestias omnis illum laborum placeat nam quisquam animi.
-              </p>
-              <a href="#" class="btn">подробнее</a>
-            </article>
-          </section>
-        </main>
-        <footer class="footer">
-          <nav class="nav">
-            <a href="#" class="logo">
-              <picture class="picture" role="img" title="logo">
-                <source
-                  srcset="
-                    ./images/Air_Asia-logo.webp 1x,
-                    ./images/Air_Asia-logo.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  srcset="
-                    ./images/Air_Asia-logo.png 1x,
-                    ./images/Air_Asia-logo.png 2x
-                  "
-                  alt="Logo of air company Air Asia"
-                  class="logo"
-                />
-              </picture>
-            </a>
-            <ul>
-              <li><a href="#" title="">Главная</a></li>
-              <li><a href="./services.html" title="">Услуги</a></li>
-              <li><a href="./review.html" title="">Отзывы</a></li>
-            </ul>
-            <div class="contacts">
-              <ul class="social">
-                <li class="social__item">
-                  <a href="#" title="link to" class="social__link">
-                    <img
-                      src="./images/icons/socials/f.png"
-                      alt=""
-                      class="social__icon"
-                    />
-                  </a>
+        </menu>
+        <div class="heading heading__main">
+          <h1 class="title title__h1 title__h1_main">
+            <span class="title_break">Авторские</span>
+            <span class="title_break">туры по Азии</span>
+          </h1>
+          <span class="title title_welcome-main">Открой для себя Азию</span>
+          <a href="#tours" class="btn btn_primary">Подробнее</a>
+        </div>
+      </header>
+      <main class="main">
+        <section class="tours">
+          <a class="invisible" name="tours"></a>
+          <h2 class="title title__h2 title_hot tours__title">Горящие туры</h2>
+          <ul class="tours__list">
+            <li class="tours__item">
+              <h3 class="title title__h3 title_tours">Тайланд</h3>
+              <ul class="tours__services services">
+                <li class="services__item">
+                  <img src="" alt="" class="services__icon">
+                  <span class="services__text">7 - 12 ночей</span>
                 </li>
-                <li class="social__item">
-                  <a href="#" title="link to" class="social__link">
-                    <img
-                      src="./images/icons/socials/f.png"
-                      alt=""
-                      class="social__icon"
-                    />
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" title="link to" class="social__link">
-                    <img
-                      src="./images/icons/socials/f.png"
-                      alt=""
-                      class="social__icon"
-                    />
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a href="#" title="link to" class="social__link">
-                    <img
-                      src="./images/icons/socials/f.png"
-                      alt=""
-                      class="social__icon"
-                    />
-                  </a>
+                <li class="services__item">
+                  <img src="" alt="" class="services__icon">
+                  <span class="services__text">Завтраки</span>
                 </li>
               </ul>
-              <span>Бесплатный звонок по России</span>
-              <a href="tel:+88007003030" title="company number"></a>
-            </div>
-          </nav>
-        </footer>
-      </div>
+              <p class="tours__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit qui omnis nostrum accusantium ratione
+                dolore ex voluptatem maxime tenetur repellat.</p>
+              <a href="#" class="btn btn_tours">Смотреть</a>
+            </li>
+            <li class="tours__item">
+              <h3 class="title title__h3 title_tours">Тайланд</h3>
+              <ul class="tours__services services">
+                <li class="services__item">
+                  <img src="" alt="" class="services__icon">
+                  <span class="services__text">7 - 12 ночей</span>
+                </li>
+                <li class="services__item">
+                  <img src="" alt="" class="services__icon">
+                  <span class="services__text">Завтраки</span>
+                </li>
+              </ul>
+              <p class="tours__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit qui omnis nostrum accusantium ratione
+                dolore ex voluptatem maxime tenetur repellat.</p>
+              <a href="#" class="btn btn_tours">Смотреть</a>
+            </li>
+            <li class="tours__item">
+              <h3 class="title title__h3 title_tours">Тайланд</h3>
+              <ul class="tours__services services">
+                <li class="services__item">
+                  <img src="" alt="" class="services__icon">
+                  <span class="services__text">7 - 12 ночей</span>
+                </li>
+                <li class="services__item">
+                  <img src="" alt="" class="services__icon">
+                  <span class="services__text">Завтраки</span>
+                </li>
+              </ul>
+              <p class="tours__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit qui omnis nostrum accusantium ratione
+                dolore ex voluptatem maxime tenetur repellat.</p>
+              <a href="#" class="btn btn_tours">Смотреть</a>
+            </li>
+          </ul>
+        </section>
+        <section class="news">
+          <h2>Новости и акции</h2>
+          <ul>
+            <li>
+              <time>Декабрь 2020</time>
+              <h3>Дешёвые путёвки на Новый Год!</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsa tempora assumenda iste, maxime
+                aliquid?</p>
+            </li>
+            <li>
+              <time>Декабрь 2020</time>
+              <h3>Акция для серфингистов</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsa tempora assumenda iste, maxime
+                aliquid?</p>
+            </li>
+          </ul>
+        </section>
+        <section class="pagination">
+          <span>Страница 1 из 7</span>
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+          </ul>
+        </section>
+        <section class="about">
+          <picture></picture>
+          <article>
+            <h2>О нас</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati, voluptatum, suscipit et
+              consectetur delectus pariatur expedita tenetur sit at necessitatibus! Magnam vitae accusantium qui, iste
+              itaque consequatur quod, iusto labore officia fuga earum placeat perspiciatis. Maxime hic eum, dicta odit
+              quaerat molestias omnis illum laborum placeat nam quisquam animi.</p>
+            <a href="#" class="btn">подробнее</a>
+          </article>
+        </section>
+      </main>
+      <footer class="footer">
+        <nav class="nav">
+          <a href="#" class="logo">
+            <picture class="picture" role="img" title="logo">
+              <source srcset="
+                        ./images/Air_Asia-logo.webp 1x,
+                        ./images/Air_Asia-logo.webp 2x" type="image/webp">
+              <img srcset="
+                        ./images/Air_Asia-logo.png 1x,
+                        ./images/Air_Asia-logo.png 2x" alt="Logo of air company Air Asia" class="logo">
+            </picture>
+          </a>
+          <ul>
+            <li><a href="#" title="">Главная</a></li>
+            <li><a href="./services.html" title="">Услуги</a></li>
+            <li><a href="./review.html" title="">Отзывы</a></li>
+          </ul>
+          <div class="contacts">
+            <ul class="social">
+              <li class="social__item">
+                <a href="#" title="link to" class="social__link">
+                  <img src="./images/icons/socials/f.png" alt="" class="social__icon">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" title="link to" class="social__link">
+                  <img src="./images/icons/socials/f.png" alt="" class="social__icon">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" title="link to" class="social__link">
+                  <img src="./images/icons/socials/f.png" alt="" class="social__icon">
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" title="link to" class="social__link">
+                  <img src="./images/icons/socials/f.png" alt="" class="social__icon">
+                </a>
+              </li>
+            </ul>
+            <span>Бесплатный звонок по России</span>
+            <a href="tel:+88007003030" title="company number"></a>
+          </div>
+        </nav>
+      </footer>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
