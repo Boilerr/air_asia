@@ -271,11 +271,11 @@ ul {
 }
 
 .news__item_cristmas {
-  background: url("../../images/content/news/plain.jpg") top/cover no-repeat;
+  background: url("../images/content/news/plain.jpg") top/cover no-repeat;
 }
 
 .news__item_winserf {
-  background: url("../../images/content/news/surfer.jpg") top/cover no-repeat;
+  background: url("../images/content/news/surfer.jpg") top/cover no-repeat;
 }
 
 .news__time {
