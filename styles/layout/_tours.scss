@@ -36,4 +36,36 @@
 
     padding: 3rem 4rem 3rem 2rem;
   }
+
+  &__services {
+    display: flex;
+    font-size: var(--xxs);
+    line-height: 1.4;
+    color: var(--brownish-grey);
+  }
+
+  &__description {
+    font-size: var(--xs);
+    line-height: 1.5;
+    margin-bottom: 3rem;
+  }
+}
+
+.services {
+
+  &__icon {
+    margin-right: .7rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+
+  
 }

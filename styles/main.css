@@ -189,6 +189,7 @@ ul {
 }
 
 .title_hot::after {
+  content: url("../images/icons/flame.png");
   margin-left: 1rem;
 }
 
@@ -271,6 +272,39 @@ ul {
   padding: 3rem 4rem 3rem 2rem;
 }
 
+.tours__services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: var(--xxs);
+  line-height: 1.4;
+  color: var(--brownish-grey);
+}
+
+.tours__description {
+  font-size: var(--xs);
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.services__icon {
+  margin-right: .7rem;
+}
+
+.services__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+.services__item:not(:last-child) {
+  margin-right: 3rem;
+}
+
 .wrapper {
   overflow: hidden;
   min-height: 100vh;
@@ -305,7 +339,7 @@ ul {
   border-radius: 10rem;
 }
 
-.btn_primary {
+.btn__primary {
   background-color: var(--red);
   height: 5.2rem;
   padding: 1.5rem 4rem;
@@ -313,14 +347,30 @@ ul {
   transition: all .2s ease-in-out;
 }
 
-.btn_primary:hover {
+.btn__primary:hover {
   background-color: var(--vermillion);
   -webkit-transform: translateY(-0.3rem);
           transform: translateY(-0.3rem);
 }
 
+.btn__primary_tours {
+  color: var(--red);
+  background-color: var(--white);
+  border: 1px solid var(--red);
+  width: 13rem;
+  padding: 1.5rem 2.8rem;
+}
+
+.btn__primary_tours:hover {
+  color: var(--white);
+}
+
 .btn_welcome {
   padding: 1.5rem 6rem;
+}
+
+.btn_tours {
+  color: red;
 }
 
 .contacts {

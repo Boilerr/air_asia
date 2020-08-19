@@ -11,7 +11,7 @@
 
   border-radius: 10rem;
 
-  &_primary {
+  &__primary {
     background-color: var(--red);
     height: 5.2rem;
     padding: 1.5rem 4rem;
@@ -22,9 +22,25 @@
       background-color: var(--vermillion);
       transform: translateY(-.3rem);
     }
+
+    &_tours {
+      color: var(--red);
+      background-color: var(--white);
+      border: 1px solid var(--red);
+      width: 13rem;
+      padding: 1.5rem 2.8rem;
+
+      &:hover {
+        color: var(--white);
+      }
+    }
   }
 
   &_welcome {
     padding: 1.5rem 6rem;
+  }
+
+  &_tours {
+    color: red;
   }
 }

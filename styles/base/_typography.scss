@@ -44,6 +44,7 @@
   &_hot {
     margin-bottom: 5rem;
     &::after {
+      content: url('../images/icons/flame.png');
       margin-left: 1rem;
     }
   }
