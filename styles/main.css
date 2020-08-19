@@ -226,6 +226,67 @@ ul {
           flex-direction: column;
 }
 
+.news {
+  color: var(--white);
+}
+
+.news__main {
+  margin-bottom: 5rem;
+}
+
+.news__title {
+  margin-bottom: 5rem;
+}
+
+.news__subtitle {
+  font-size: var(--xm);
+  margin-bottom: 1rem;
+}
+
+.news__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+.news__item {
+  min-height: 39rem;
+  border-radius: 1rem;
+  padding: 5rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.news__item_cristmas {
+  background: url("../../images/content/news/plain.jpg") top/cover no-repeat;
+}
+
+.news__item_winserf {
+  background: url("../../images/content/news/surfer.jpg") top/cover no-repeat;
+}
+
+.news__time {
+  font-size: var(--xs);
+  margin-bottom: 2rem;
+}
+
+.news__text {
+  font-size: var(--xxs);
+}
+
 .tours__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,8 +405,8 @@ ul {
   background-color: var(--red);
   height: 5.2rem;
   padding: 1.5rem 4rem;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn__primary:hover {
@@ -368,10 +429,6 @@ ul {
 
 .btn_welcome {
   padding: 1.5rem 6rem;
-}
-
-.btn_tours {
-  color: red;
 }
 
 .contacts {
@@ -442,8 +499,8 @@ ul {
 .nav__link {
   color: var(--white);
   font-size: var(--xs);
-  -webkit-transition: all .1s ease-in;
-  transition: all .1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .nav__link:hover {

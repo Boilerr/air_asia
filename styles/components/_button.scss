@@ -16,11 +16,11 @@
     height: 5.2rem;
     padding: 1.5rem 4rem;
 
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
       background-color: var(--vermillion);
-      transform: translateY(-.3rem);
+      transform: translateY(-0.3rem);
     }
 
     &_tours {
@@ -38,9 +38,5 @@
 
   &_welcome {
     padding: 1.5rem 6rem;
-  }
-
-  &_tours {
-    color: red;
   }
 }
