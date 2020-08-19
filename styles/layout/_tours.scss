@@ -1,4 +1,39 @@
 .tours {
 
-  
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 36rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    min-height: 44rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    padding-top: 14rem;
+
+      background-position-y: -4rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+    &_first {
+      background-image: url('/images/content/offers/river.jpg');
+    }
+    &_second {
+      background-image: url('/images/content/offers/pool.jpg');
+    }
+    &_third {
+      background-image: url('/images/content/offers/ocean.jpg');
+    }
+  }
+
+  &__content {
+    background-color: var(--white);
+    min-height: 100%;
+
+    padding: 3rem 4rem 3rem 2rem;
+  }
 }

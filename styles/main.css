@@ -160,6 +160,10 @@ ul {
   font-size: var(--l);
 }
 
+.title__h3 {
+  font-size: var(--xm);
+}
+
 .title_break {
   display: block;
   line-height: 1.2;
@@ -180,9 +184,17 @@ ul {
   margin-bottom: 3rem;
 }
 
+.title_hot {
+  margin-bottom: 5rem;
+}
+
 .title_hot::after {
-  content: url("/images/icons/flame.png");
   margin-left: 1rem;
+}
+
+.title_tours {
+  color: var(--black);
+  margin-bottom: 2.5rem;
 }
 
 .header {
@@ -201,6 +213,62 @@ ul {
 
 .heading__main {
   place-self: end start;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tours__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tours__item {
+  width: 36rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: var(--white);
+  min-height: 44rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding-top: 14rem;
+  background-position-y: -4rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tours__item_first {
+  background-image: url("/images/content/offers/river.jpg");
+}
+
+.tours__item_second {
+  background-image: url("/images/content/offers/pool.jpg");
+}
+
+.tours__item_third {
+  background-image: url("/images/content/offers/ocean.jpg");
+}
+
+.tours__content {
+  background-color: var(--white);
+  min-height: 100%;
+  padding: 3rem 4rem 3rem 2rem;
 }
 
 .wrapper {
