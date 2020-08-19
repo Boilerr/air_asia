@@ -233,6 +233,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 15rem;
 }
 
 .tours__item {
@@ -446,6 +447,7 @@ ul {
 }
 
 .nav__link:hover {
+  cursor: pointer;
   color: var(--vermillion);
 }
 
