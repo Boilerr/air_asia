@@ -255,15 +255,15 @@ ul {
 }
 
 .tours__item_first {
-  background-image: url("/images/content/offers/river.jpg");
+  background-image: url("../images/content/offers/river.jpg");
 }
 
 .tours__item_second {
-  background-image: url("/images/content/offers/pool.jpg");
+  background-image: url("../images/content/offers/pool.jpg");
 }
 
 .tours__item_third {
-  background-image: url("/images/content/offers/ocean.jpg");
+  background-image: url("../images/content/offers/ocean.jpg");
 }
 
 .tours__content {
