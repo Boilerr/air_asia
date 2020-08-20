@@ -1,5 +1,4 @@
 .tours {
-
   &__list {
     display: flex;
     justify-content: space-between;
@@ -7,35 +6,30 @@
   }
 
   &__item {
-    width: 36rem;
     display: flex;
-    flex-direction: column;
-    background: var(--white);
-    min-height: 44rem;
+    width: 36rem;
+    background: var(--white) 0 -4rem / contain no-repeat;
     overflow: hidden;
     border-radius: 1rem;
     padding-top: 14rem;
 
-      background-position-y: -4rem;
-      background-repeat: no-repeat;
-      background-size: contain;
-
     &_first {
-      background-image: url('../images/content/offers/river.jpg');
+      background-image: url("../images/content/offers/river.jpg");
     }
     &_second {
-      background-image: url('../images/content/offers/pool.jpg');
+      background-image: url("../images/content/offers/pool.jpg");
     }
     &_third {
-      background-image: url('../images/content/offers/ocean.jpg');
+      background-image: url("../images/content/offers/ocean.jpg");
     }
   }
 
   &__content {
-    background-color: var(--white);
-    min-height: 100%;
-
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
     padding: 3rem 4rem 3rem 2rem;
+    background-color: inherit;
   }
 
   &__services {
@@ -46,6 +40,7 @@
   }
 
   &__description {
+    flex: 1;
     font-size: var(--xs);
     line-height: 1.5;
     margin-bottom: 3rem;
@@ -53,7 +48,6 @@
 }
 
 .services {
-
   &__icon {
     margin-right: .7rem;
   }
@@ -67,6 +61,4 @@
       margin-right: 3rem;
     }
   }
-
-  
 }

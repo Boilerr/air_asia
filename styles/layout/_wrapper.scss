@@ -7,27 +7,20 @@
   background-color: var(--navy);
 
   &__welcome {
-    min-width: auto;
     place-items: center center;
   }
 
   &__main {
-    
-    background: url(../images/bg/hero.jpg) top center no-repeat,
-                url(../images/bg/bottom-pic.jpg) bottom center no-repeat;
-                background-color: var(--navy);
+    background: 
+    url(../images/bg/hero.jpg) top center no-repeat,
+    url(../images/bg/bottom-pic.jpg) bottom center no-repeat;
+    background-color: var(--navy);
   }
 }
 
 .container {
-
   width: 114.2rem;
   min-height: 100vh;
-  
 
   border: 1px solid hsl(0, 0%, 55%); // for dev
-
-  &__main {
-
-  }
 }

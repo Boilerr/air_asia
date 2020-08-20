@@ -1,7 +1,6 @@
 .contacts {
   color: var(--white);
   &__tel {
-    display: inline-block;
     color: inherit;
     font-size: var(--xm2);
   }
@@ -9,7 +8,7 @@
   &__text {
     text-align: right;
     font-size: var(--xs);
-    
+
     transition: all .1s ease-in;
 
     &:hover {

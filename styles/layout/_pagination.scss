@@ -9,20 +9,18 @@
     font-size: var(--xxs);
   }
   &__text {
-   margin-right: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   &__link {
     color: inherit;
     font-weight: 700;
     padding: .7rem 1.4rem;
+    border-radius: 10rem;
 
-    transition: all .3s ease-in;
-
-    &:hover {
+    &_current {
       color: var(--red);
-      background-color: var(--white);
-      border-radius: 10rem;
+      background: var(--white);
     }
   }
   &_main {
