@@ -414,8 +414,7 @@ ul {
 }
 
 .wrapper__main {
-  background: url(../images/bg/hero.jpg) top center no-repeat, url(../images/bg/bottom-pic.jpg) bottom center no-repeat;
-  background-color: var(--navy);
+  background: url(../images/bg/hero.jpg) top center no-repeat, url(../images/bg/bottom-pic.jpg) bottom center no-repeat, var(--navy);
 }
 
 .container {
