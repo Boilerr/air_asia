@@ -1,7 +1,23 @@
 .menu {
+  // width: 100%;
+  // display: block;
+  display: table;
+  margin-bottom: 12.5rem;
+
   &__main {
-    display: grid;
-    grid-template: 100% / 16.5rem 1fr max-content;
-    place-items: center start;
+    // display: grid;
+    // grid-template: 100% / 16.5rem 1fr max-content;
+    // place-items: center start;
+
+    //------------------------
+    height: 7.5rem;
+    width: 100%;
+    // border: 1px solid darkgreen;
+    position: relative;
+    
+    // display: block;
+    // // display: table-cell;
+    // text-align: justify;
+    // vertical-align: middle;
   }
 }

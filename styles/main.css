@@ -263,20 +263,12 @@ ul {
 
 .header {
   color: var(--white);
-  display: -ms-grid;
-  display: grid;
 }
 
 .header__main {
   height: 50rem;
-  -ms-grid-rows: 7.2rem 1fr;
-  -ms-grid-columns: 1fr;
-      grid-template: 7.2rem 1fr / 1fr;
   margin-bottom: 25.5rem;
-}
-
-.heading__main {
-  place-self: end start;
+  position: relative;
 }
 
 .main {
@@ -529,6 +521,15 @@ ul {
 
 .contacts {
   color: var(--white);
+  display: inline-block;
+}
+
+.contacts__header {
+  position: absolute;
+  right: 0;
+  padding-top: 1rem;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .contacts__tel {
@@ -559,17 +560,12 @@ ul {
 }
 
 .contacts__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   width: 20rem;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+}
+
+.logo {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .logo__link {
@@ -582,36 +578,41 @@ ul {
   width: 100%;
 }
 
+.menu {
+  display: table;
+  margin-bottom: 12.5rem;
+}
+
 .menu__main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 100%;
-  -ms-grid-columns: 16.5rem 1fr -webkit-max-content;
-  -ms-grid-columns: 16.5rem 1fr max-content;
-      grid-template: 100% / 16.5rem 1fr -webkit-max-content;
-      grid-template: 100% / 16.5rem 1fr max-content;
-  place-items: center start;
+  height: 7.5rem;
+  width: 100%;
+  position: relative;
 }
 
 .nav {
-  width: 100%;
   height: 100%;
-  -ms-grid-column-align: center;
-      justify-self: center;
+}
+
+.nav__header {
+  display: table;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 15rem;
 }
 
 .nav__list {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 100%;
-  -ms-grid-columns: (minmax(-webkit-min-content, -webkit-max-content))[3];
-  -ms-grid-columns: (minmax(min-content, max-content))[3];
-      grid-template: 100%/repeat(3, minmax(-webkit-min-content, -webkit-max-content));
-      grid-template: 100%/repeat(3, minmax(min-content, max-content));
-  -webkit-column-gap: 5.5rem;
-          column-gap: 5.5rem;
-  place-items: center;
-  min-height: 100%;
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+}
+
+.nav__item {
+  display: inline-block;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 5rem;
 }
 
 .nav__link {

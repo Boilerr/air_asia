@@ -1,4 +1,7 @@
 .logo {
+  display: table-cell;
+  vertical-align: middle;
+  // height: 100%;
   &__link {
     display: inline-block;
     width: 9.8rem;

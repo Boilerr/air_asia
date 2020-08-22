@@ -1,5 +1,18 @@
 .contacts {
+  // ---------------------------
+  &__header {
+    position: absolute;
+    // top: 0;
+    right: 0;
+    padding-top: 1rem;
+
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  // ---------------------------
   color: var(--white);
+  display: inline-block;
   &__tel {
     color: inherit;
     font-size: var(--xm2);
@@ -28,9 +41,9 @@
   }
 
   &__block {
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-end;
     width: 20rem;
-    align-items: flex-end;
   }
 }
