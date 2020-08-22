@@ -17,27 +17,27 @@
     transition: all 0.2s ease-in-out;
 
     &_telegram {
-      background: url("../../images/icons/socials/t.png") no-repeat;
+      background: url("../images/icons/socials/t.png") no-repeat;
       &:hover {
-        background: url("../../images/icons/socials/t2.png") no-repeat;
+        background: url("../images/icons/socials/t2.png") no-repeat;
       }
     }
     &_vk {
-      background: url("../../images/icons/socials/vk.png") no-repeat;
+      background: url("../images/icons/socials/vk.png") no-repeat;
       &:hover {
-        background: url("../../images/icons/socials/vk2.png") no-repeat;
+        background: url("../images/icons/socials/vk2.png") no-repeat;
       }
     }
     &_facebook {
-      background: url("../../images/icons/socials/f.png") no-repeat;
+      background: url("../images/icons/socials/f.png") no-repeat;
       &:hover {
-        background: url("../../images/icons/socials/f2.png") no-repeat;
+        background: url("../images/icons/socials/f2.png") no-repeat;
       }
     }
     &_inst {
-      background: url("../../images/icons/socials/in.png") no-repeat;
+      background: url("../images/icons/socials/in.png") no-repeat;
       &:hover {
-        background: url("../../images/icons/socials/in2.png") no-repeat;
+        background: url("../images/icons/socials/in2.png") no-repeat;
       }
     }
   }

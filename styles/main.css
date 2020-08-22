@@ -223,7 +223,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url("../../images/decor/mountains.jpg") -20rem 0 no-repeat;
+  background: url("../images/decor/mountains.jpg") -20rem 0 no-repeat;
   max-width: 78rem;
   min-height: 45.5rem;
   bottom: 0;
@@ -650,35 +650,35 @@ ul {
 }
 
 .social__link_telegram {
-  background: url("../../images/icons/socials/t.png") no-repeat;
+  background: url("../images/icons/socials/t.png") no-repeat;
 }
 
 .social__link_telegram:hover {
-  background: url("../../images/icons/socials/t2.png") no-repeat;
+  background: url("../images/icons/socials/t2.png") no-repeat;
 }
 
 .social__link_vk {
-  background: url("../../images/icons/socials/vk.png") no-repeat;
+  background: url("../images/icons/socials/vk.png") no-repeat;
 }
 
 .social__link_vk:hover {
-  background: url("../../images/icons/socials/vk2.png") no-repeat;
+  background: url("../images/icons/socials/vk2.png") no-repeat;
 }
 
 .social__link_facebook {
-  background: url("../../images/icons/socials/f.png") no-repeat;
+  background: url("../images/icons/socials/f.png") no-repeat;
 }
 
 .social__link_facebook:hover {
-  background: url("../../images/icons/socials/f2.png") no-repeat;
+  background: url("../images/icons/socials/f2.png") no-repeat;
 }
 
 .social__link_inst {
-  background: url("../../images/icons/socials/in.png") no-repeat;
+  background: url("../images/icons/socials/in.png") no-repeat;
 }
 
 .social__link_inst:hover {
-  background: url("../../images/icons/socials/in2.png") no-repeat;
+  background: url("../images/icons/socials/in2.png") no-repeat;
 }
 
 .welcome {
