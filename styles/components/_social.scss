@@ -1,0 +1,44 @@
+.social {
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+  }
+  &__main {
+    margin-right: 7.5rem;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 3.6rem;
+    height: 3.6rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+    &_telegram {
+      background: url("../../images/icons/socials/t.png") no-repeat;
+      &:hover {
+        background: url("../../images/icons/socials/t2.png") no-repeat;
+      }
+    }
+    &_vk {
+      background: url("../../images/icons/socials/vk.png") no-repeat;
+      &:hover {
+        background: url("../../images/icons/socials/vk2.png") no-repeat;
+      }
+    }
+    &_facebook {
+      background: url("../../images/icons/socials/f.png") no-repeat;
+      &:hover {
+        background: url("../../images/icons/socials/f2.png") no-repeat;
+      }
+    }
+    &_inst {
+      background: url("../../images/icons/socials/in.png") no-repeat;
+      &:hover {
+        background: url("../../images/icons/socials/in2.png") no-repeat;
+      }
+    }
+  }
+}

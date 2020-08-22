@@ -15,7 +15,22 @@
       text-decoration: underline;
       cursor: pointer;
     }
+
+    &_small {
+      color: var(--brown-grey);
+      font-size: var(--s);
+
+      &:hover {
+        text-decoration: none;
+        cursor: none;
+      }
+    }
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    align-items: flex-end;
   }
 }
-
-// .modal {}
