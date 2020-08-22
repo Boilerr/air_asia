@@ -372,7 +372,7 @@ ul {
   border-radius: 10rem;
 }
 
-.pagination__link_current {
+.pagination__link_current, .pagination__link:hover {
   color: var(--red);
   background: var(--white);
 }

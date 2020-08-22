@@ -18,7 +18,8 @@
     padding: .7rem 1.4rem;
     border-radius: 10rem;
 
-    &_current {
+    &_current,
+    &:hover {
       color: var(--red);
       background: var(--white);
     }
