@@ -10,13 +10,14 @@
 
 // 4. Layout-related sections
 @import
+'layout/about',
 'layout/footer',
 'layout/header',
 'layout/main',
 'layout/news',
 'layout/pagination',
 'layout/tours',
-  'layout/wrapper';
+'layout/wrapper';
 
 // 5. Components
 @import
