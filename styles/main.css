@@ -277,6 +277,7 @@ ul {
 
 .heading__main {
   place-self: end start;
+  margin-bottom: 0;
 }
 
 .main {
@@ -566,10 +567,10 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 20rem;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  width: 20rem;
 }
 
 .logo__link {
@@ -591,6 +592,9 @@ ul {
       grid-template: 100% / 16.5rem 1fr -webkit-max-content;
       grid-template: 100% / 16.5rem 1fr max-content;
   place-items: center start;
+  height: 7.5rem;
+  width: 100%;
+  border: 1px solid darkgreen;
 }
 
 .nav {
@@ -612,6 +616,10 @@ ul {
           column-gap: 5.5rem;
   place-items: center;
   min-height: 100%;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 5rem;
 }
 
 .nav__link {

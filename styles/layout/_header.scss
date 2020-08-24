@@ -2,15 +2,24 @@
   color: var(--white);
   display: grid;
 
+  //------------------------
+  // padding-top: 3rem;
+
   &__main {
     height: 50rem;
     grid-template: 7.2rem 1fr / 1fr;
     margin-bottom: 25.5rem;
+
+    //---------------------
+    // border: 1px solid blue;
+    // position: relative;
+    // padding-top: 2.8rem;
   }
 }
 
 .heading {
   &__main {
     place-self: end start;
+    margin-bottom: 0;
   }
 }
