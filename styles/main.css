@@ -263,21 +263,21 @@ ul {
 
 .header {
   color: var(--white);
-  display: -ms-grid;
-  display: grid;
 }
 
 .header__main {
   height: 50rem;
-  -ms-grid-rows: 7.2rem 1fr;
-  -ms-grid-columns: 1fr;
-      grid-template: 7.2rem 1fr / 1fr;
   margin-bottom: 25.5rem;
+<<<<<<< HEAD
 }
 
 .heading__main {
   place-self: end start;
   margin-bottom: 0;
+=======
+  position: relative;
+  padding-top: 2.8rem;
+>>>>>>> c35d6080c047f03676080b3a628002dae0ecc0b3
 }
 
 .main {
@@ -530,6 +530,12 @@ ul {
 
 .contacts {
   color: var(--white);
+  display: inline-block;
+}
+
+.contacts__header {
+  position: absolute;
+  right: 0;
 }
 
 .contacts__tel {
@@ -560,6 +566,7 @@ ul {
 }
 
 .contacts__block {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -571,6 +578,13 @@ ul {
       -ms-flex-align: end;
           align-items: flex-end;
   width: 20rem;
+=======
+  width: 20rem;
+}
+
+.logo {
+  display: inline-block;
+>>>>>>> c35d6080c047f03676080b3a628002dae0ecc0b3
 }
 
 .logo__link {
@@ -584,6 +598,7 @@ ul {
 }
 
 .menu__main {
+<<<<<<< HEAD
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 100%;
@@ -595,27 +610,28 @@ ul {
   height: 7.5rem;
   width: 100%;
   border: 1px solid darkgreen;
-}
-
-.nav {
+=======
+  height: 7.5rem;
   width: 100%;
-  height: 100%;
-  -ms-grid-column-align: center;
-      justify-self: center;
+  position: relative;
+  margin-bottom: 9.5rem;
+>>>>>>> c35d6080c047f03676080b3a628002dae0ecc0b3
 }
 
-.nav__list {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 100%;
-  -ms-grid-columns: (minmax(-webkit-min-content, -webkit-max-content))[3];
-  -ms-grid-columns: (minmax(min-content, max-content))[3];
-      grid-template: 100%/repeat(3, minmax(-webkit-min-content, -webkit-max-content));
-      grid-template: 100%/repeat(3, minmax(min-content, max-content));
-  -webkit-column-gap: 5.5rem;
-          column-gap: 5.5rem;
-  place-items: center;
-  min-height: 100%;
+.nav__header {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 20rem;
+  padding-top: 1rem;
+}
+
+.nav__item {
+  display: inline-block;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 5rem;
 }
 
 .nav__item:not(:last-child) {

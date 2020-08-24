@@ -3,15 +3,32 @@
   // display: block;
 
   &__main {
+<<<<<<< HEAD
     display: grid;
     grid-template: 100% / 16.5rem 1fr max-content;
     place-items: center start;
+=======
+    // display: grid;
+    // grid-template: 100% / 16.5rem 1fr max-content;
+    // place-items: center start;
+>>>>>>> c35d6080c047f03676080b3a628002dae0ecc0b3
 
     //------------------------
     height: 7.5rem;
     width: 100%;
+<<<<<<< HEAD
     border: 1px solid darkgreen;
     // position: relative;
     // margin-bottom: 9.5rem;
+=======
+    // border: 1px solid darkgreen;
+    position: relative;
+    margin-bottom: 9.5rem;
+    
+    // display: block;
+    // // display: table-cell;
+    // text-align: justify;
+    // vertical-align: middle;
+>>>>>>> c35d6080c047f03676080b3a628002dae0ecc0b3
   }
 }
