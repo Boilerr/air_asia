@@ -437,6 +437,7 @@ ul {
   font-size: var(--xxs);
   line-height: 1.4;
   color: var(--brownish-grey);
+  margin-bottom: 3rem;
 }
 
 .tours__description {
@@ -459,7 +460,6 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 3rem;
 }
 
 .services__item:not(:last-child) {
