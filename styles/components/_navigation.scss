@@ -2,13 +2,6 @@
   width: 100%;
   height: 100%;
   justify-self: center;
-  &__header {
-  // display: inline-block;
-  // position: absolute;
-  // top: 0;
-  // left: 20rem;
-  // padding-top: 1rem;
-  }
 
   &__list {
     display: grid;
@@ -16,19 +9,12 @@
     column-gap: 5.5rem;
     place-items: center;
     min-height: 100%;
-
-    // ------------------------
   }
 
-  //-------------------------
   &__item {
-    // display: inline-block;
-
     &:not(:last-child) {
       margin-right: 5rem;
     }
-    // position: absolute;
-    
   }
 
   &__link {

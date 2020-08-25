@@ -1,14 +1,5 @@
 .contacts {
-  // ---------------------------
-  &__header {
-    // position: absolute;
-    // top: 0;
-    // right: 0;
-  }
-  
-  // ---------------------------
   color: var(--white);
-  // display: inline-block;
   &__tel {
     color: inherit;
     font-size: var(--xm2);
