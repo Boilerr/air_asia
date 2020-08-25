@@ -391,30 +391,36 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 15rem;
+}
+
+.tours__image {
+  height: 14rem;
+  overflow: hidden;
+}
+
+.tours__image_position {
+  height: 100%;
+  -webkit-transform: scale(2) translate(5rem, 1.5rem);
+          transform: scale(2) translate(5rem, 1.5rem);
 }
 
 .tours__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 36rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 36rem;
   background: var(--white) 0 -4rem/contain no-repeat;
   overflow: hidden;
   border-radius: 1rem;
-  padding-top: 14rem;
+  margin-bottom: 14rem;
 }
 
-.tours__item_first {
-  background-image: url("../images/content/offers/river.jpg");
-}
-
-.tours__item_second {
-  background-image: url("../images/content/offers/pool.jpg");
-}
-
-.tours__item_third {
-  background-image: url("../images/content/offers/ocean.jpg");
+.tours__item:not(:last-child) {
+  margin-right: 3rem;
 }
 
 .tours__content {
@@ -426,6 +432,9 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   min-width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding: 3rem 4rem 3rem 2rem;
   background-color: inherit;
 }
