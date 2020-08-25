@@ -161,7 +161,7 @@ ul {
   font-size: var(--xm);
 }
 
-.title_break {
+.title__break {
   display: block;
   line-height: 1.2;
 }
