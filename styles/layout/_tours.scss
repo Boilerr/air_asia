@@ -10,7 +10,8 @@
     
     &_position {
       height: 100%;
-      transform: scale(2) translate(5rem, 1.5rem);
+      width: 100%;
+      object-fit: cover;
     }
   }
 

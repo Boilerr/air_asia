@@ -1,29 +1,26 @@
 .about {
   &__main {
     min-height: 56rem;
-    position: relative;
     margin-bottom: 4.5rem;
+    display: flex;
   }
   &__decor-img,
   &__article {
-    position: absolute;
     border-radius: 1rem;
   }
   &__decor-img {
     max-height: 50rem;
-    top: 0;
-    left: 0;
   }
   &__article {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background: url('../images/decor/mountains.jpg') -20rem 0 no-repeat;
-    max-width: 78rem;
-    min-height: 45.5rem;
-    bottom: 0;
-    right: 0;
+    width: 78rem;
+    height: 45.5rem;
     padding: 8rem 8rem 7.5rem 9rem;
+    margin-left: -13rem;
+    align-self: flex-end;
   }
   &__title {
     font-size: var(--l);

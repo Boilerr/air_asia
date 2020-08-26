@@ -161,11 +161,6 @@ ul {
   font-size: var(--xm);
 }
 
-.title__break {
-  display: block;
-  line-height: 1.2;
-}
-
 .title_welcome {
   font-size: var(--m);
   font-weight: 400;
@@ -197,19 +192,18 @@ ul {
 
 .about__main {
   min-height: 56rem;
-  position: relative;
   margin-bottom: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .about__decor-img, .about__article {
-  position: absolute;
   border-radius: 1rem;
 }
 
 .about__decor-img {
   max-height: 50rem;
-  top: 0;
-  left: 0;
 }
 
 .about__article {
@@ -224,11 +218,12 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: url("../images/decor/mountains.jpg") -20rem 0 no-repeat;
-  max-width: 78rem;
-  min-height: 45.5rem;
-  bottom: 0;
-  right: 0;
+  width: 78rem;
+  height: 45.5rem;
   padding: 8rem 8rem 7.5rem 9rem;
+  margin-left: -13rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .about__title {
@@ -278,6 +273,10 @@ ul {
 .heading__main {
   place-self: end start;
   margin-bottom: 0;
+}
+
+.heading__break {
+  line-height: 1.2;
 }
 
 .main {
@@ -400,8 +399,9 @@ ul {
 
 .tours__image_position {
   height: 100%;
-  -webkit-transform: scale(2) translate(5rem, 1.5rem);
-          transform: scale(2) translate(5rem, 1.5rem);
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .tours__item {
